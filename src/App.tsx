@@ -50,7 +50,7 @@ function CatsInfo() {
 export function App() {
   return (
     <>
-      <Text>Welcome to Eugene Bot! Type /compliment, /catsInfo.</Text>
+      <Text>Welcome to Eugene Bot! Type /compliment, /catsInfo </Text>
       <Router>
         <Route path="/compliment">
           <Compliment />
