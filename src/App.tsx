@@ -22,7 +22,7 @@ function Logo() {
 }
 
 function Compliment() {
-  const [text, setText] = useState('Say your name');
+  const [text, setText] = useState('Say your name, please');
   useText(({ text }) => {
     const superCompliment = `Моя любимая ${text}! Я тебя очень люблю! Ты мой самый доргой человек!!`
     const usualCompliment = `${text} вы сегодня просто неотразимы)) Ваш муж вас любит!`
